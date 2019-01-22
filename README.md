@@ -13,7 +13,6 @@ To handle the imbalance in dataset, i augment the images of classes expect 'nv' 
 Results:
 We are able to achieve 77.61% accuracy on test set containing 2005 images containing all classes.
 
-Implementation:
 # Data preprocessing
 Use create_train_test_csv.py in scripts folder to split data into training and test set. It creates train.csv and test.csv
 Use Augmenter to augment the classes except 'nv'. Script aug_csv.py can be used as reference.
