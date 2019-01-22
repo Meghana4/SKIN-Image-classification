@@ -9,7 +9,7 @@ Experiment is performed by training the multi-class classification model on ResN
 The dataset is split into 80% training and 20% validation set. The fully connected layer in base model is modified according to number of classes required.
 Softmax is used as the activation function in the prediction layer and multi-class cross entropy as the loss function.
 To handle the imbalance in dataset, i augment the images of classes expect 'nv' using imaugmenter. Refer https://github.com/mdbloice/Augmentor for more details.
-
+Code is implemented in pytorch.
 Results:
 Able to achieve 77.61% accuracy on test set containing 2005 images containing all classes.
 
