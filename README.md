@@ -12,6 +12,10 @@ To handle the imbalance in dataset, i augment the images of classes expect 'nv' 
 Code is implemented in pytorch.
 Results:
 Able to achieve 77.61% accuracy on test set containing 2005 images containing all classes.
+Classes     nv          mel       bkl         bcc      akiec      vasc        df
+Samples    1341        223       220         103        66         29         23
+FPR        0.14        0.43       0.35       0.26      0.33       0.31       0.69
+TPR        0.85        0.56       0.64       0.73      0.66       0.68       0.30
 
 # Data preprocessing
 Use create_train_test_csv.py in scripts folder to split data into training and test set. It creates train.csv and test.csv
